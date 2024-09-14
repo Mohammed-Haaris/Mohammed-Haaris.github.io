@@ -1,0 +1,52 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  font-family: roboto mono;
+}
+.wrapper {
+  position: relative;
+  width: 700px;
+
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  width: 700px;
+  overflow: hidden; /* Ensures image stays within bounds during transition */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image maintains its aspect ratio */
+  transition: transform 0.5s ease, filter 0.5s ease; /* Transition effect */
+}
+
+.wrapper:hover img {
+  transform: scale(1.1); /* Zoom in on hover */
+  filter: brightness(0.8); /* Slightly darken the image */
+}
+
+h2 {
+  font-size: 500%;
+}
+
+.html {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+}

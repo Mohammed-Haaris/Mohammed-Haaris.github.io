@@ -1,0 +1,33 @@
+/** @format */
+
+.img1 {
+  width: 300px;
+  height: 300px;
+}
+
+.int1:hover {
+  cursor: pointer;
+}
+
+.con {
+  margin-top: 100px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cont {
+  margin-top: 60px;
+}
+
+.ui {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.sec {
+  margin-top: 80px;
+}
